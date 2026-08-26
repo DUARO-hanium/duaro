@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 모델 가중치 (용량 문제로 git 미포함 — README 참고)
+weights/
+*.ckpt
+*.pth
+*.safetensors
+*.onnx
