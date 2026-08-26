@@ -1,0 +1,16 @@
+# 실행 환경이 WSL(리눅스)이므로 모든 텍스트 파일은 LF로 통일
+# (윈도우에서 편집해도 커밋·체크아웃 모두 LF — CRLF 변환 경고 방지)
+* text=auto eol=lf
+
+# 바이너리 파일은 개행 변환 제외
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.zip binary
+*.npz binary
+*.onnx binary
+*.ckpt binary
+*.pth binary
+*.safetensors binary
