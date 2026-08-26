@@ -1,0 +1,8 @@
+# 공통 의존성 — main.py를 실행할 환경(ROS2가 source된 환경)에 설치 (README의 실행 순서 참고)
+# rclpy는 pip가 아니라 ROS2(apt) 설치로 제공되므로 여기에 적지 않는다.
+# grasp·검수 모델의 딥러닝 의존성은 모델 확정 후 추가한다.
+numpy
+opencv-python
+pyyaml
+fastapi
+uvicorn
